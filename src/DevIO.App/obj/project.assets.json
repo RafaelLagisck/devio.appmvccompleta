@@ -2302,19 +2302,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rafael.lagisck\\.nuget\\packages\\": {}
+    "C:\\Users\\Rafael\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
+      "projectUniqueName": "D:\\Projetos\\NetCore\\AppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
       "projectName": "DevIO.App",
-      "projectPath": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
-      "packagesPath": "C:\\Users\\rafael.lagisck\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.App\\obj\\",
+      "projectPath": "D:\\Projetos\\NetCore\\AppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
+      "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetos\\NetCore\\AppMvcCompleta\\src\\DevIO.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rafael.lagisck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2328,8 +2328,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
-              "projectPath": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj"
+            "D:\\Projetos\\NetCore\\AppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
+              "projectPath": "D:\\Projetos\\NetCore\\AppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj"
             }
           }
         }
@@ -2383,7 +2383,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

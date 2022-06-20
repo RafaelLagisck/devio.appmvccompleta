@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\rafael.lagisck\\.nuget\\packages\\": {}
+    "C:\\Users\\Rafael\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+      "projectUniqueName": "D:\\Projetos\\NetCore\\AppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
       "projectName": "DevIO.Business",
-      "projectPath": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
-      "packagesPath": "C:\\Users\\rafael.lagisck\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.Business\\obj\\",
+      "projectPath": "D:\\Projetos\\NetCore\\AppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+      "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetos\\NetCore\\AppMvcCompleta\\src\\DevIO.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rafael.lagisck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
