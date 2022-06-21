@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cXXkdgSJH9rNcFVGBvkH5ua9uYCB2kGHPptix46cZM95vWC8Bg3FUPxefN+z6U/+/xTQn2YwS99BeYjsy2oxJg==",
+  "dgSpecHash": "PFuiT+o5a9Jq+RGiqIdboveGEq4FPKE10dBLsowZDZosdIzhsDiBXsE5KCw96rRKqZ57bS52OlPOKUrkr8RFbw==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\NetCore\\AppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "projectFilePath": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
