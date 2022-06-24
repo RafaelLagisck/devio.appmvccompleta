@@ -350,3 +350,4 @@ D:\Projetos\NetCore\dev.io.appmvccompleta\AppMvcCompleta\src\DevIO.App\obj\Debug
 D:\Projetos\NetCore\dev.io.appmvccompleta\AppMvcCompleta\src\DevIO.App\obj\Debug\net6.0\DevIO.App.pdb
 D:\Projetos\NetCore\dev.io.appmvccompleta\AppMvcCompleta\src\DevIO.App\obj\Debug\net6.0\DevIO.App.genruntimeconfig.cache
 D:\Projetos\NetCore\dev.io.appmvccompleta\AppMvcCompleta\src\DevIO.App\obj\Debug\net6.0\ref\DevIO.App.dll
+D:\Projetos\NetCore\dev.io.appmvccompleta\AppMvcCompleta\src\DevIO.App\bin\Debug\net6.0\libman.json

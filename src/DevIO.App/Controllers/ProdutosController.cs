@@ -65,9 +65,20 @@ namespace DevIO.App.Controllers
 
             if (ModelState.IsValid) return View(produtoViewModel);
 
+            var imgPrefixo = Guid.NewGuid() + "_";
+
+            if(! await UploadArquivo(produtoViewModel.ImagemUpload, imgPrefixo))
+            {
+                return View(produtoViewModel);
+            }
+
+            produtoViewModel.Imagem = imgPrefixo + produtoViewModel.ImagemUpload.FileName;
+
             await _produtoRepository.Adicionar(_mapper.Map<Produto>(produtoViewModel));
-            
-            return View(produtoViewModel);
+
+            //return View(produtoViewModel);
+            return RedirectToAction(actionName: "Index");
+
         }
 
         // GET: Produtos/Edit/5
@@ -95,6 +106,8 @@ namespace DevIO.App.Controllers
             if (!ModelState.IsValid) return View(produtoViewModel);
 
             await _produtoRepository.Atualizar(_mapper.Map <Produto>(produtoViewModel));
+
+
 
             return RedirectToAction(actionName: "Index");
         }
@@ -142,6 +155,25 @@ namespace DevIO.App.Controllers
             produto.Fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObterTodos());
             return produto;
 
+        }
+
+        private async Task<bool> UploadArquivo(IFormFile arquivo, string imgPrefixo)
+        {
+            if (arquivo.Length <= 0) return false;
+
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/imagens", imgPrefixo + arquivo.FileName);
+
+            if(System.IO.File.Exists(path))
+            {
+                ModelState.AddModelError(key: String.Empty, errorMessage: "Já existe um arquivo com esse nome!");
+                return false;
+            }
+
+            using (var stream = new FileStream(path, FileMode.Create))
+            {
+                await arquivo.CopyToAsync(stream);
+            }
+            return true;
         }
     }
 }
