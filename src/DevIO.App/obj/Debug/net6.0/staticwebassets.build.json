@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "plCCQt48NJ71Qm8Ye0Soch5MUIOcksEtZN69E16UKaU=",
+  "Hash": "4ERCVpL84HVpTen0hfva1NcJw8wr9+wzAKOm1INMb48=",
   "Source": "DevIO.App",
   "BasePath": "_content/DevIO.App",
   "Mode": "Default",
@@ -1122,6 +1122,40 @@
       "OriginalItemSpec": "wwwroot\\imagens\\20d68b01-fe26-463b-ad90-625ea746379a_Chamado_ 4455_I.jpg"
     },
     {
+      "Identity": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.App\\wwwroot\\imagens\\5e71f257-f0d4-469a-a688-9f43bffbab0d_Chamado_ 4455_I.jpg",
+      "SourceId": "DevIO.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.App\\wwwroot\\",
+      "BasePath": "_content/DevIO.App",
+      "RelativePath": "imagens/5e71f257-f0d4-469a-a688-9f43bffbab0d_Chamado_ 4455_I.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\5e71f257-f0d4-469a-a688-9f43bffbab0d_Chamado_ 4455_I.jpg"
+    },
+    {
+      "Identity": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.App\\wwwroot\\imagens\\622a1607-47aa-4eb5-9650-5b6841b740c3_Chamado_ 4455_II.jpg",
+      "SourceId": "DevIO.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.App\\wwwroot\\",
+      "BasePath": "_content/DevIO.App",
+      "RelativePath": "imagens/622a1607-47aa-4eb5-9650-5b6841b740c3_Chamado_ 4455_II.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\622a1607-47aa-4eb5-9650-5b6841b740c3_Chamado_ 4455_II.jpg"
+    },
+    {
       "Identity": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.App\\wwwroot\\imagens\\b92c0f89-638c-4d36-8791-2aa898d24de1_Chamado_ 4452_I.JPG",
       "SourceId": "DevIO.App",
       "SourceType": "Discovered",
@@ -1137,6 +1171,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagens\\b92c0f89-638c-4d36-8791-2aa898d24de1_Chamado_ 4452_I.JPG"
+    },
+    {
+      "Identity": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.App\\wwwroot\\imagens\\bfb0de20-c141-4d66-a2b8-f0d5b21fe4b7_35220646684746000162550010000021261501807454-nfe.xml",
+      "SourceId": "DevIO.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.App\\wwwroot\\",
+      "BasePath": "_content/DevIO.App",
+      "RelativePath": "imagens/bfb0de20-c141-4d66-a2b8-f0d5b21fe4b7_35220646684746000162550010000021261501807454-nfe.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\bfb0de20-c141-4d66-a2b8-f0d5b21fe4b7_35220646684746000162550010000021261501807454-nfe.xml"
     },
     {
       "Identity": "D:\\Projetos\\NetCore\\dev.io.appmvccompleta\\AppMvcCompleta\\src\\DevIO.App\\wwwroot\\js\\site.js",

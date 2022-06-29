@@ -50,8 +50,9 @@ namespace DevIO.App.Controllers
             
         {
             var produtoViewModel = await PopularFornecedores(new ProdutoViewModel());
+
             return View(produtoViewModel);
-                
+
         }
 
         // POST: Produtos/Create
@@ -90,7 +91,7 @@ namespace DevIO.App.Controllers
             {
                 return NotFound();
             }
-            
+
             return View(produtoViewModel);
         }
 
@@ -104,7 +105,6 @@ namespace DevIO.App.Controllers
             if (id != produtoViewModel.Id) return NotFound();
 
             var produtoAtualizacao = await ObterProduto(id);
-
             produtoViewModel.Fornecedor = produtoAtualizacao.Fornecedor;
             produtoViewModel.Imagem = produtoAtualizacao.Imagem;
 
@@ -113,7 +113,7 @@ namespace DevIO.App.Controllers
             if (produtoViewModel.ImagemUpload != null)
             {
                 var imgPrefixo = Guid.NewGuid() + "_";
-                if(!await UploadArquivo(produtoViewModel.ImagemUpload, imgPrefixo))
+                if (!await UploadArquivo(produtoViewModel.ImagemUpload, imgPrefixo))
                 {
                     return View(produtoViewModel);
                 }
@@ -126,7 +126,7 @@ namespace DevIO.App.Controllers
             produtoAtualizacao.Valor = produtoViewModel.Valor;
             produtoAtualizacao.Ativo = produtoViewModel.Ativo;
 
-            await _produtoRepository.Atualizar(_mapper.Map <Produto>(produtoViewModel));
+            await _produtoRepository.Atualizar(_mapper.Map<Produto>(produtoAtualizacao));
 
             return RedirectToAction(actionName: "Index");
         }
@@ -182,9 +182,9 @@ namespace DevIO.App.Controllers
 
             var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/imagens", imgPrefixo + arquivo.FileName);
 
-            if(System.IO.File.Exists(path))
+            if (System.IO.File.Exists(path))
             {
-                ModelState.AddModelError(key: String.Empty, errorMessage: "Já existe um arquivo com esse nome!");
+                ModelState.AddModelError(string.Empty, "Já existe um arquivo com este nome!");
                 return false;
             }
 
@@ -192,6 +192,7 @@ namespace DevIO.App.Controllers
             {
                 await arquivo.CopyToAsync(stream);
             }
+
             return true;
         }
     }
